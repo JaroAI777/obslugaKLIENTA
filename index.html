@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Obsługa Klienta</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0e1117;
+      color: #e6e8eb;
+    }
+    main {
+      width: 100%;
+      max-width: 720px;
+      padding: 24px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0 0 16px 0;
+      font-size: clamp(28px, 6vw, 44px);
+      font-weight: 700;
+      letter-spacing: .2px;
+    }
+    /* Upewnia się, że element widżetu zachowuje się jak blok i skaluje na mobile */
+    elevenlabs-convai {
+      display: block;
+      width: 100%;
+      margin: 8px auto 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Obsługa Klienta</h1>
+
+    <elevenlabs-convai agent-id="agent_4601k6r8j528e8bv2g3qq7j7x3m9"></elevenlabs-convai>
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+  </main>
+</body>
+</html>
